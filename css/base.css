@@ -1,8 +1,13 @@
-body {background-color: coral;}
-.card-columns {
-    column-count: 1;
+body {
+    background: url('../imgs/background.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
-
+#background{
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
 #prof{
     margin: auto;
     margin-top:15%;
@@ -19,9 +24,14 @@ body {background-color: coral;}
     text-align: left;
     padding-left: 1.3%;
     margin: auto;
+    color: white;
 }
 #profImage img {
     width: auto;
     height: 100px;
     box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+/* Contents */
+.card-columns {
+    column-count: 1;
 }

@@ -1,4 +1,27 @@
 body {background-color: coral;}
- .card-columns {
+.card-columns {
     column-count: 1;
+}
+
+#prof{
+    margin: auto;
+    margin-top:15%;
+    margin-bottom: 2%;
+    width: 75%;
+}
+#profImage{
+    width: 35%;
+    text-align: right;
+    padding-right: 1.3%;
+}
+#profName{
+    width: 65%;
+    text-align: left;
+    padding-left: 1.3%;
+    margin: auto;
+}
+#profImage img {
+    width: auto;
+    height: 100px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
 }

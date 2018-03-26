@@ -12,7 +12,7 @@ body {
     margin-bottom: 3%;
 }
 #background{
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.3);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -28,6 +28,14 @@ body {
     text-align: right;
     padding-right: 1.3%;
 }
+#profImage div{
+    height:100px;
+    width:100px;
+    float:right;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
 #profName{
     width: 65%;
     text-align: left;
@@ -37,8 +45,8 @@ body {
 }
 #profImage img {
     width: auto;
-    height: 100px;
-    box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+    height: 120px;
+    margin-top:-2%
 }
 /* Contents */
 .card-columns {

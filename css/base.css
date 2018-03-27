@@ -49,6 +49,12 @@ body {
     margin-top:-2%
 }
 /* Contents */
+/* Home */
+#CVLink{
+    color: inherit;
+    float: right;
+    margin-bottom: 2%;
+}
 .card-columns {
     column-count: 1;
 }

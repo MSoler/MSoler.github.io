@@ -1,26 +1,48 @@
 <h1>Projects</h1>
 <div class="card-columns">
     <div class="card">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="imgs/test.jpg" class="w-100">
-            </div>
-
-            <div class="col-md-8 px-3">
-                <div class="card-block px-3">
-                    <h5 class="card-title">Project name</h5>
-                    <p class="card-text">Description of the project.</p>
+        <div id="chess" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#chess" data-slide-to="0" class="active"></li>
+                <li data-target="#chess" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <video class="d-block w-100" autoplay>
+                        <source src="imgs/Cheesy.webm" type="video/webm" autoplay>
+                    </video> 
                 </div>
+                
+                <div class="carousel-item">
+                    <video class="d-block w-100">
+                        <source src="imgs/CheesyTeam.webm" type="video/webm">
+                    </video> 
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#chess" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#chess" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="px-3">
+            <div class="card-body px-3">
+                <div class="row">
+                    <h5 class="card-title">Chess+: The revenge of minimax</h5>
+                    <h4 class="card-subtitle mb-2 text-muted year">2013</h4>
+                </div>
+                <p class="card-text text-justify">A game of chess where you able to customize your starting pices. You can change to position or even adding pieces of other games such as shogi or custom ones. You can play against your friends online or with an AI. I started this project when I started learning about algorithms such as minimax, and naively thought that only by implementing those I would have a decent chess engine. This game was entirely done in C# and XNA.</p>
             </div>
         </div>
     </div>
 
      <div class="card">
         <div class="row">
-            <div class="col-md-4">
-                <img src="imgs/test.jpg" class="w-100">
-            </div>
-
             <div class="col-md-8 px-3">
                 <div class="card-body px-3">
                     <h5 class="card-title">Project name</h5>
@@ -29,4 +51,5 @@
             </div>
         </div>
     </div>
+    <script src="js/carousel.js"></script>
 </div>

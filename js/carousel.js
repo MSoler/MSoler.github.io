@@ -1,6 +1,7 @@
 $('.carousel').carousel({
   interval: 4000
 })
+$('.carouselVid').carousel('pause')
 $('.carouselVid video').on("stop ended", function(e) {
     var carItem = $(e.target).parent();
     if(carItem.hasClass("active")){
@@ -9,7 +10,6 @@ $('.carouselVid video').on("stop ended", function(e) {
     }
 });
 $('.carouselVid').on("slid.bs.carousel",function(e){
-    $(this).carousel("pause");
     $(e.target).find("video").each(function(){
         this.pause();
         this.currentTime=0;
